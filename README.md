@@ -14,6 +14,7 @@ Pandas – Data preprocessing
 
 ngrok – Public deployment
 
+
 🚀 Key Features
 
 CSV-based patient data upload
@@ -27,6 +28,7 @@ Health risk identification with preliminary advice
 Downloadable structured results
 
 Public deployment support
+
 
 🧠 System Architecture
 
@@ -46,9 +48,11 @@ Provides cautious preliminary guidance
 
 Sequential execution using CrewAI Process engine
 
+
 ⚙️ Tech Stack
 
 Python, Multi-Agent Systems, LLM (LLaMA 3.1 via Groq), CrewAI, Streamlit, Pandas
+
 
 📌 Disclaimer
 

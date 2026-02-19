@@ -1,0 +1,5 @@
+crewai>=0.28.0
+litellm>=1.30.0
+pandas>=2.0.0
+streamlit>=1.30.0
+pyngrok>=7.0.0

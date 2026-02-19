@@ -1,47 +1,55 @@
-🏥 Health Risk Identifier
+🏥 Health Risk Identifier – Multi-Agent AI Healthcare System
 
-An AI-powered healthcare risk analysis application that uses a multi-agent architecture to analyze patient datasets and identify potential health risks.
+An AI-powered healthcare risk assessment system that uses a multi-agent architecture to analyze patient datasets and generate structured health risk insights.
 
 Built using:
 
-CrewAI (Multi-Agent Orchestration)
+CrewAI – Multi-agent orchestration
 
-Groq (LLaMA 3.1 model inference)
+Groq – LLaMA 3.1 model inference
 
-Streamlit (Interactive UI)
+Streamlit – Interactive dashboard
 
-Pandas (Data processing)
+Pandas – Data preprocessing
 
-ngrok (Public deployment)
+ngrok – Public deployment
 
-🚀 Features
+🚀 Key Features
 
-Upload patient CSV datasets
+CSV-based patient data upload
 
-Multi-agent medical data processing:
+Sequential multi-agent medical reasoning
 
-Patient Collector Agent → Structures patient vitals
+Structured patient summaries
 
-Doctor AI Agent → Identifies health risks & provides preliminary advice
+Health risk identification with preliminary advice
 
-Sequential AI reasoning workflow
+Downloadable structured results
 
-JSON output + downloadable results
+Public deployment support
 
-Public deployment via ngrok
+🧠 System Architecture
 
-🧠 How It Works
+Patient Collector Agent
 
-User uploads healthcare dataset.
+Organizes and structures medical data
 
-Collector Agent organizes patient data.
+Prevents hallucination by restricting to provided dataset
 
-Doctor AI analyzes structured information.
+Doctor AI Agent
 
-System generates risk insights with reasoning.
+Analyzes structured data
 
-Results displayed in Streamlit dashboard.
+Identifies potential health risks
+
+Provides cautious preliminary guidance
+
+Sequential execution using CrewAI Process engine
 
 ⚙️ Tech Stack
 
-Python, Multi-Agent Systems, LLM (LLaMA 3.1 via Groq), CrewAI, Streamlit, Pandas, ngrok
+Python, Multi-Agent Systems, LLM (LLaMA 3.1 via Groq), CrewAI, Streamlit, Pandas
+
+📌 Disclaimer
+
+This system provides AI-generated insights for educational purposes and does not constitute medical advice.
